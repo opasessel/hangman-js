@@ -1,9 +1,10 @@
-# password-checker
-Password change page that verifies new password meets certain criteria.
+# hangman-game
+A hangman style game in Javascript.
 
-## Purpose
-This project was started because my university's password change page has specific criteria with no indication of whether the criteria has actually been met or not.
+Made while following Andrew Mead's JavaScript course on Udemy.
+Much of the code comes from the course with some improvements by myself.
 
-## What I learned:
-- Reinforced certain array and string methods
-- Practiced writing more compact and efficient code
+## This project taught me:
+- promises
+- requests
+- asynchronous javascript
