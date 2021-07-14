@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>Hangman Game</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+        <header>
+            <div class="navbar"><a>Hangman Game</a></div>
+        </header>
+
+        <div class="card" style="padding: 50px;">
+            <div class="card-content">
+                <p id="puzzle"></p>
+                <p id="guesses"></p>
+                <div class="wrapper">
+                    <button id="reset">Reset Game</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="padding-top: 30px; padding-bottom: 30px;">
+            <h2 id="unguessed_header">Remaining Letters:</h2>
+            <div id="unguessed_letters"></div>
+            <div class="wrapper">
+                <button id="switch_letters">Switch to Guessed Letters</button>
+            </div>
+        </div>
+
+		<script src="requests.js"></script>
+		<script src="hangman.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
