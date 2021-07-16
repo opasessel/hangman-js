@@ -1,4 +1,4 @@
-# hangman-game
+# hangman-js
 A hangman style game in Javascript.
 
 Made while following Andrew Mead's JavaScript course on Udemy.
